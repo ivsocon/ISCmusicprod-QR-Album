@@ -3,7 +3,7 @@
 
 body {border:  5px solid black;
 	background-image: url(photos/back.jpg);
-	background-size: 100%;
+	background-size: cover;
 	width: auto;
 	height: auto%;
 	background-repeat: no-repeat;
