@@ -13,6 +13,7 @@ body {
 	
 }
 h1 , h2{
+	margin-top: 100px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: lightyellow;
 	text-shadow: 2px 2px black}
