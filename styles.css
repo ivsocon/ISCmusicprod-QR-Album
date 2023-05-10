@@ -1,4 +1,7 @@
-*{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+* {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 html {
 	margin-left: -15px;
 	margin-right: -15px;
@@ -14,11 +17,13 @@ body {
 	opacity: 98%;
 	
 }
-h1 , h2{
+h1 , h2 {
 	margin-top: 80px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: lightyellow;
-	text-shadow: 2px 2px black}
+	text-shadow: 2px 2px black
+}
+
 .background-2{
 	background-color: rgba(60, 160, 160, 0.6);
 }
@@ -26,26 +31,33 @@ h1 , h2{
 h1{ 
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-transform: capitalize;
-	text-align: center;}
-.body{background-color: lightgrey;}
+	text-align: center;
+}
+
+.body{
+	background-color: lightgrey;
+}
 
 .cover {
 	border-radius: 15%;
 	max-width: 500px;
 	display: block;
 	margin: auto;
-	width:  50%;}
+	width:  50%;
+}
 
-a{color:black;}
+a {
+	color:black;
+}
 
 
-h2, h4{text-transform: capitalize;
+h2, h4 {
+	text-transform: capitalize;
 	margin: auto;
-text-align: center;
+	text-align: center;
 }
 
 #tribute-info{
-	
 	text-align: justify;
 	margin: 100px;
 	color: lightyellow;
@@ -54,33 +66,43 @@ text-align: center;
 	font-size: 20px;
 	border-radius: 10px 10px 10px 10px;
 	}
-.divider{
+
+.divider {
 	border-top: 3px solid #000000;
- 	
 }
-.bgt:hover{background: rgba(155,155,155,0.5);
-border-radius: 3px;
-transition: 250ms;
-transition-delay: 250ms;
-transition-property: background-color;
-transition-timing-function: ease-in-out;}
+
+.bgt:hover {
+	background: rgba(155,155,155,0.5);
+	border-radius: 3px;
+	transition: 250ms;
+	transition-delay: 250ms;
+	transition-property: background-color;
+	transition-timing-function: ease-in-out;
+}
 
 .allsongs, .songs {
-color: purple;
-text-decoration-color: indigo ;
-font-family: arial, times new roman;
-margin:  auto;
-text-align: center;
-font-size: 20px;
-font-weight: bolder;
-padding-bottom: 20px;}
+	color: purple;
+	text-decoration-color: indigo ;
+	font-family: arial, times new roman;
+	margin:  auto;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bolder;
+	padding-bottom: 20px;
+}
 
-.allsongs, .songs:hover{color: pink; transition: 0.5s;}
+.allsongs, .songs:hover{
+	color: pink; transition: 0.5s;
+}
 
-.songs:active{color: lightorange;
-font-size: 25px;}
+.songs:active{
+	color: lightorange;
+	font-size: 25px;
+}
 
-.songs:visited{color:  lightorange;}
+.songs:visited{
+	color:  lightorange;
+}
 
 h3, h6 {
 	text-align: center;
@@ -120,13 +142,13 @@ h3:hover{
 
 #photo-logo{
 	cursor:auto;
-size: fixed
-;}
+	size: fixed;
+}
 
 
 
-.me, .it {margin:auto;
-	
+.me, .it {
+	margin:auto;
 	max-width: 80%;
 	max-height: 80%;
 	display: block;
@@ -139,11 +161,15 @@ size: fixed
 
 
 
-.flex {display: flex;}
-
-
-.flex > * {flex-basis: 100%;
+.flex {
+	display: flex;
 }
+
+
+.flex > * {
+	flex-basis: 100%;
+}
+
 .myself, .company-text{
 	font-size: 14px;
 	text-shadow: 1px 1px rgb(95, 94, 94) ;
@@ -165,27 +191,21 @@ margin: 10%;
 	padding-bottom: 1px;
 	margin: auto;
 }
+
 .br{
 	margin: auto;
 	font-size: 20px;
 	text-align: center;
 }
-/*.item1, .item2 {
- flex: 1;
- width: 0;
- justify-content: center;
- text-align: justify;
- max-width: 60%;
 
+.myself, .company-text {
+	color: lightyellow	;
 }
-*/
-.myself, .company-text {color: lightyellow	;}
 
 /* included myself and company-text*/.beatstore{
 	text-align: justify;
 	padding-block: 20px;
 	padding-inline: 100px;
-	backound: rgba(155,155,155, 0.5);
 	color: lightyellow;
 	opacity: 90%;
 	text-shadow: -1px -2px black;
@@ -193,9 +213,9 @@ margin: 10%;
 	text-align: ;
 	font-size: 20px;
 	border-radius: 10px 10px 10px 10px;
-	}
+}
 
-.behindsongs{
+.behindsongs {
 	background-color: rgba(70, 167, 167, 0.4);
     position: relative;
     border: rgba(166, 166, 166, 1.0);
@@ -217,7 +237,6 @@ margin: 10%;
 }
 
 .beats-link:hover{
-	text-color: r(0,0,0, 0.3);
 	transition: 0.3s;
 	letter-spacing: 30px;
 	cursor: pointer;
@@ -228,7 +247,6 @@ margin: 10%;
 }
 
 .trending{
-
 	text-transform: uppercase;
 	font-size: 25px;
 	font-weight: bolder;
@@ -251,34 +269,38 @@ margin: 10%;
 
 
 /*Footer*/
-footer{text-align: right;
+footer{
+	text-align: right;
 	font-family: Arial, Helvetica, sans-serif;
-text-transform: uppercase;
-font-size: 11px;
-font-weight: bolder;
-padding-bottom: 10px;}
-footer:hover{opacity: 80%;}
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: bolder;
+	padding-bottom: 10px;}
+	footer:hover{opacity: 80%;
+}
 
 /*Button*/
 .btn{
 	background: rgb(2,0,36);
-background: linear-gradient(to bottom right, rgba(40,165,194,100) 19%, rgba(0,212,255,0.3) 47%,  rgba(2,0,36,0.3)67%, rgba(60,47,185,62) 77%);
-
-background-color: mediumpurple;
-opacity: 80%;
-color: lightyellow;
-text-shadow: black 1px 1px;
-padding: 3px;
-font-size: 8px;
-border-style: solid;
-border-radius: 10px;
-border-width: 3px;
-border-color: green;
-margin: 10px 10px 10px 10px;
+	background: linear-gradient(to bottom right, rgba(40,165,194,100) 19%, rgba(0,212,255,0.3) 47%,  rgba(2,0,36,0.3)67%, rgba(60,47,185,62) 77%);
+	background-color: mediumpurple;
+	opacity: 80%;
+	color: lightyellow;
+	text-shadow: black 1px 1px;
+	padding: 3px;
+	font-size: 8px;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 3px;
+	border-color: green;
+	margin: 10px 10px 10px 10px;
 }
-.btn:hover{font-size: 9px;
-color: cyan;}
-.btn:active{font-size: 10px;
+.btn:hover{
+	font-size: 9px;
+	color: cyan;
+}
+.btn:active{
+	font-size: 10px;
 	background:  rgb(10, 119, 119);
 	opacity: 50%;
 }
