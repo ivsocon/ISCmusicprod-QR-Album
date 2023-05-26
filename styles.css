@@ -43,6 +43,8 @@ h1{
 
 
 .contact{
+	color: lightyellow;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 40px;
 	text-align: center;
 	font-weight: bold;
@@ -85,7 +87,11 @@ h2, h4 {
 
 #tribute-info, .container{
 	text-align: justify;
-	margin: 100px;
+	margin: relative;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
 	color: lightyellow;
 	opacity: 90%;
 	text-shadow: -1px -2px black;
@@ -235,8 +241,7 @@ margin: 10%;
 	color: lightyellow;
 	opacity: 90%;
 	text-shadow: -1px -2px black;
-	text-overflow: ;
-	text-align: ;
+	
 	font-size: 20px;
 	border-radius: 10px 10px 10px 10px;
 }
@@ -290,6 +295,59 @@ margin: 10%;
 #embeds{
 	margin: 5px;
 	justify-content: center;
+}
+.buttons_main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 10vh;
+	flex-direction: column;
+
+	
+
+}
+
+
+
+.ripple {
+	color: #ffffff;
+	position: relative;
+	display: inline-block;
+	padding: 12px, 36px;
+	margin: 10px 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: 2px;
+	border-radius: 40px;
+	overflow: hidden;
+	background: linear-gradient(90deg, rgb(27, 210, 210), rgb(14, 104, 100)) ;
+
+}
+.ripple:nth-child(2){
+	background: linear-gradient(90deg, rgb(119, 39, 123), rgb(6, 154, 136));
+}
+
+span { 
+	position: absolute;
+	background:cyan;
+	transform:translate(-50%, -50%);
+	pointer-events: none;
+	border-radius: 50%;
+	opacity: 50%;
+	animation: animate 1s linear infinite;
+}
+@keyframes animate{ 
+	0%
+	{
+		width: 0px;
+		height: 0px;
+	}
+	100%
+	{
+			width: 500px;
+			height: 500px;		
+	}
 }
 
 
