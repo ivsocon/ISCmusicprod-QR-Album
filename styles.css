@@ -32,6 +32,8 @@ h1 , h2 {
 
 .background-2{
 	background-color: rgba(60, 160, 160, 0.6);
+	justify-self: unset;
+	min-width: fit-content;
 	
 }
 
@@ -43,6 +45,8 @@ h1{
 
 
 .contact{
+
+	min-width: fit-content;
 	color: lightyellow;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 40px;
@@ -51,11 +55,16 @@ h1{
 	text-shadow: 1px 1px rgb(95, 94, 94) ;
 	padding-bottom: 1px;
 	margin: auto;
+	text-align: center;
 
 }
 .container {
+	text-align: ;
+	display: flex;
+	justify-content: center;
+	min-width: fit-content;
+	size-adjust: auto;
 	margin: 300px;
-
 	border-radius: 5px;
 	background-color:rgba(60, 160, 160, 0.6) ;
 	padding: 200px;
